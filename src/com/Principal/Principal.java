@@ -29,6 +29,8 @@ public class Principal {
         System.out.println("----------- Bienvenido a TecnologÃ­a "
                 + "Integradora----------------");
         do{
+            
+            System.out.println("Hola mundo");
             System.out.println("Ingresa la opciÃ³n deseada"
                     + "\n   1) AÃ±adir computadora"
                     + "\n   2) Revisar la lista"
@@ -52,12 +54,12 @@ public class Principal {
                     
                     
                 case 3:
-                    Computadora compu = modificarDatosAUsuario();
-                    boolean exito = servicios.modificar(compu);
-                    if(exito)
-                        System.out.println("Se modifico con exito");
-                    else
-                        System.out.println("NEL MORRO NO SE HACE");
+////                    Computadora compu = modificarDatosAUsuario();
+////                    boolean exito = servicios.modificar(compu);
+//                    if(exito)
+//                        System.out.println("Se modifico con exito");
+//                    else
+//                        System.out.println("NEL MORRO NO SE HACE");
                     break;
                 case 4:
                     break;
